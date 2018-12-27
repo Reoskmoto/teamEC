@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+#product{
+	background-color: white;
+}
+/*商品一覧関係*/
+.product-list{
+	width:100%;
+}
+.product-list-image{
+	width:250px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px #ff33dd;
+}
+.product-list-box{
+	float:left;
+	width:33%;
+	text-align:center;
+	margin:auto 0;
+}
+ul{
+	list-style: none;
+}
+.info{
+	text-align: center;
+}
+/*商品詳細*/
+.contents{
+	width:95%;
+	float: left;
+	margin-top:5px;
+	text-align: center;
+	margin:auto 0;
+}
+
+}
+.product-info-list{
+	float:left;
+	width: 50%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding-left: 5px;
+}
+table.product-info-list th{
+	width: 30%;
+	padding: 10px;
+	font-weight: 400;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: deeppink;
+	color:#ffffff;
+	text-align: center;
+}
+table.product-info-list td{
+	width: 45%;
+	padding: 10px;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.product-detail-image{
+	width:50%;
+	float:left;
+}
+.product-submit{
+	margin-top:20px;
+	margin-left:10%;
+	border:outset 2px white;
+	border-radius: 50px;
+	background-color:#C0293D;
+	color:white;
+	padding:5px 20px;
+	text-decoration: none;
+	box-shadow: 2px 2px 2px rgba(0,0,0,1)
+	float:left;
+}
+.product-submit:hover{
+	opacity: 0.9;
+	border:solid 2px #641923;
+}
+/*関連商品*/
+.box2 {
+	margin: 0 auto;
+	width: 800px;
+	height: 400px;
+	margin-bottom: 100px;
+}
+.product-details-recomｍend-box {
+	margin-top: 2%;
+	clear: both;
+	margin-left : 200px;
+}
+
+.recommend-box{
+	float : left;
+	width : 33.3%;
+	height : 148px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.recommend-area{
+	margin-bottom: 80px;
+}
+.product-details-recommend-box {
+	width: 800px;
+	margin: 0 auto;
+	clear: left;
+}
+.recommend-box ul li {
+	border: solid 1px #ff80ff;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.item-image-box-320 {
+	width: 350px;
+	height: 350px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px #B56A00;
+}
+
+.item-image-box-100 {
+	width: 200px;
+	border-radius: 50%;
+}
+ul {
+	list-style: none;
+	padding: 0 20px;
+}

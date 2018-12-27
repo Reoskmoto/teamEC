@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*テーブル部分*/
+table {
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	font-size: 13px;
+	border-collapse: collapse;
+	border-bottom: 1px;
+}
+
+table tr th, table tr td {
+	width: 11%;
+	height: 40px;
+	border: solid 1px #D8D8D8;
+}
+
+/*決済テーブル*/
+.thead, .tbody {
+	width: 14%;
+	height: 40px;
+	border: solid 1px #D8D8D8;
+}
+
+.thead {
+	color: white;
+	background-color: deeppink;
+	padding: 0px;
+}
+
+.tbody, td {
+	text-align: left;
+	padding-left: 5px;
+}
+
+.submit_box {
+	text-align: center;
+	padding: 10px;
+}
+/*決済テーブル*/
+table tr th {
+	color: white;
+	background-color: deeppink;
+	padding: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.photo {
+	vertical-align: middle;
+}
+/*テーブル部分*/
